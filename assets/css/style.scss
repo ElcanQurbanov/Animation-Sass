@@ -4,7 +4,7 @@
 
 
 .box {
-    
+
     margin-left: 60px;
 
     img {
@@ -28,70 +28,71 @@
 
         .menu li {
             text-decoration: none;
-                // &:first-child{
-                // color: red
-            }
+            // &:first-child{
+            // color: red
         }
+    }
 
-        ul {
+    ul {
 
-            display: flex;
-            list-style: none;
+        display: flex;
+        list-style: none;
 
-            li a {
-                text-decoration: none;
-                margin-left: 20px;
-                color: black;
-            }
-
+        li a {
+            text-decoration: none;
+            margin-left: 20px;
+            color: black;
         }
 
     }
 
-    .line2 {
-        display: flex;
-        align-items: center;
+}
 
-        .text {
-            font-size: 12px;
+.line2 {
+    display: flex;
+    align-items: center;
+
+    .text {
+        font-size: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    span {
+
+
+        text-decoration: none;
+    }
+
+
+    h2 {
+        margin: 30px;
+        font-weight: bold;
+    }
+
+    h6 {
+
+        &:first-child {
+            color: #53595c;
         }
 
-        a {
-            text-decoration: none;
-            color: black;
-            text-decoration: none;
-            margin-left: 20px;
-        }
-
-        span {
-
- 
-            text-decoration: none;
-        }
-        
-
-        h2 {
-            margin: 30px;
+        &:last-child {
             font-weight: bold;
         }
 
-        h6 {
-
-            &:first-child {
-                color: #53595c;
-            }
-
-            &:last-child {
-                font-weight: bold;
-            }
-
-            font-size: 10px;
-            position: relative;
-            margin-top: 10px;
-        }
-
+        font-size: 10px;
+        position: relative;
+        margin-top: 10px;
     }
+
 }
+
+
 
 
 
@@ -126,7 +127,7 @@
     gap: 18px;
     margin: 11px;
 
-    ul{
+    ul {
         list-style: none;
     }
 
@@ -141,46 +142,112 @@
 
     i {
         color: #fff;
-   
+
     }
 
-   
 
-    
-    
 
-}   
 
-.main-menu{
+
+
+}
+
+.main-menu {
     margin-top: 20px;
-}    
+}
 
 .navbar {
     padding-left: 10px;
 }
 
-.products-img{
+.products-img {
 
-    img{
+    img {
         height: 450px;
     }
-    
+
 }
 
-.product-cart{
+.product-cart {
 
-    .card1{
-        p{
-            img{
+    display: flex;
+
+    padding: 20px;
+    background: #ededee;
+    border-radius: 4px;
+    min-height: 132px;
+    justify-content: center;
+    position: relative;
+
+    .card1 {
+        p {
+            img {
                 float: right;
             }
-    
+
         }
-        
+
     }
-    
+
 }
 
+.product-cart2 {
+
+    img {
+        float: right;
+    }
 
 
+    display: flex;
 
+    padding: 20px;
+    background: #ededee;
+    border-radius: 4px;
+    min-height: 132px;
+    justify-content: center;
+    position: relative;
+
+}
+
+.product-cart3 {
+
+    img {
+        float: right;
+    }
+
+    display: flex;
+    padding: 20px;
+    background: #ededee;
+    border-radius: 4px;
+    min-height: 132px;
+    justify-content: center;
+    position: relative;
+}
+
+.product-card4 {
+
+    img {
+        float: right;
+    }
+
+    display: flex;
+    padding: 20px;
+    background: #ededee;
+    border-radius: 4px;
+    min-height: 132px;
+    justify-content: center;
+    position: relative;
+}
+
+// .news-text{
+//     display: flex;
+// }
+
+// .news-background{
+//     background-color: #fff;
+// }
+
+.news-left{
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+}
