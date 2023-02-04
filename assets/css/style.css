@@ -1,0 +1,114 @@
+#nav-down {
+  background-color: #53595c;
+}
+
+.box {
+  margin-left: 60px;
+}
+.box img {
+  width: 141px;
+  margin: 33px;
+  width: 137px;
+  margin-right: 3px;
+}
+.box .line {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.box .line .menu {
+  height: 100%;
+  margin-top: 39px;
+}
+.box .line .menu li {
+  text-decoration: none;
+}
+.box ul {
+  display: flex;
+  list-style: none;
+}
+.box ul li a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+}
+
+.line2 {
+  display: flex;
+  align-items: center;
+}
+.line2 .text {
+  font-size: 12px;
+}
+.line2 a {
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.line2 span {
+  text-decoration: none;
+}
+.line2 h2 {
+  margin: 30px;
+  font-weight: bold;
+}
+.line2 h6:first-child {
+  color: #53595c;
+}
+
+.nav-background {
+  background-color: black;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 !important;
+}
+.navbar .search {
+  width: 100%;
+}
+
+.nav-text h1 {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icons {
+  align-items: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: end;
+  gap: 18px;
+  margin: 11px;
+}
+.icons ul {
+  list-style: none;
+}
+.icons .hesaba-giris-text {
+  font-size: 17px;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+}
+.icons i {
+  color: #fff;
+}
+
+.main-menu {
+  margin-top: 20px;
+}
+
+.navbar {
+  padding-left: 10px;
+}
+
+.products-img img {
+  height: 450px;
+}
+
+.product-cart .card1 p img {
+  float: right;
+}/*# sourceMappingURL=style.css.map */
